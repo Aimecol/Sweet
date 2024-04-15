@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="command.css" />
+    <link rel="stylesheet" href="./nav.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto Flex"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="Admin.html">Home Panel</a></li>
+          <li><a href="comment.html">Comments</a></li>
+          <li><a href="add.html">Add Product</a></li>
+          <li><a href="command.html">Command</a></li>
+        </ul>
+      </nav>
+      <div class="logout">
+        <a href="#">Logout</a>
+      </div>
+      <button class="hamburger">
+        <div class="bars"></div>
+      </button>
+      <div class="nav-dropdown">
+        <li><a href="Admin.html">Home Panel</a></li>
+        <li><a href="comment.html">Comments</a></li>
+        <li><a href="add.html">Add Product</a></li>
+        <li><a href="command.html">Command</a></li>
+      </div>
+    </header>
+    <main>
+      <table>
+        <tr>
+          <th>
+            N<sup><u>0</u></sup>
+          </th>
+          <th>EMAIL</th>
+          <th>ORDER DATE</th>
+          <th>STATUS</th>
+          <th>QUANTITY</th>
+          <th>TOTAL AMOUNT</th>
+          <th>PAYMENT METHOD</th>
+        </tr>
+      </table>
+    </main>
+    <script>
+      const btn = document.querySelector("span");
+      const btnOn = document.querySelector(".nav-dropdown");
+      const button = document.querySelector(".hamburger");
+
+      button.onclick = function () {
+        button.classList.toggle("isActive");
+        btnOn.classList.toggle("open");
+      };
+    </script>
+  </body>
+</html>

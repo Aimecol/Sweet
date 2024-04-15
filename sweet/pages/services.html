@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet-Delight-Services</title>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="services.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto Flex"
+      rel="stylesheet"
+    /> -->
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <h1>
+          <a href="#">Sweet <span>Delights</span></a>
+        </h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+      <div class="side">
+        <div class="cart">
+          <h2>
+            <a href="#">
+              <span class="cart-icon">Cart</span>
+              <span class="cart-quantity">0</span>
+            </a>
+          </h2>
+        </div>
+        <div class="search">
+          <input type="search" placeholder="search..." />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="login">
+          <a href="./Login page/login.html">Login / Signup</a>
+        </div>
+      </div>
+      <button class="hamburger">
+        <div class="bars"></div>
+      </button>
+      <div class="nav-dropdown">
+        <li><a href="../index.html" class="active">Home</a></li>
+        <li><a href="./services.php">Services</a></li>
+        <li><a href="./about.html">About us</a></li>
+        <li><a href="./gallery.html">Gallery</a></li>
+        <li><a href="./contact.html">Contact us</a></li>
+        <div class="cart">
+          <h2>
+            <a href="#">Cart</a>
+          </h2>
+        </div>
+        <div class="login">
+          <a href="./Login page/login.html">Login / Signup</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="cards"></div>
+    </main>
+    <footer>
+      <p>Aimecol &copy; 2024, Musanze, Ines Ruhengeri</p>
+    </footer>
+    <script src="./data/products.js"></script>
+    <script src="scripts/services.js"></script>
+    <script>
+      const btn = document.querySelector("span");
+      const btnOn = document.querySelector(".nav-dropdown");
+      const button = document.querySelector(".hamburger");
+
+      button.onclick = function () {
+        button.classList.toggle("isActive");
+        btnOn.classList.toggle("open");
+      };
+    </script>
+  </body>
+</html>

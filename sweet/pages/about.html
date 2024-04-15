@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet-Delight-About-Us</title>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto Flex"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <h1>
+          <a href="#">Sweet <span>Delights</span></a>
+        </h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html" class="active">About us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+      <div class="side">
+        <div class="cart">
+          <h2><a href="#">Cart</a></h2>
+        </div>
+        <div class="search">
+          <input type="search" placeholder="search..." />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="login">
+          <a href="./Login page/login.html">Login / Signup</a>
+        </div>
+      </div>
+      <button class="hamburger">
+        <div class="bars"></div>
+      </button>
+      <div class="nav-dropdown">
+        <li><a href="../index.html" class="active">Home</a></li>
+        <li><a href="./services.php">Services</a></li>
+        <li><a href="./about.html">About us</a></li>
+        <li><a href="./gallery.html">Gallery</a></li>
+        <li><a href="./contact.html">Contact us</a></li>
+        <div class="cart">
+          <h2><a href="#">Cart</a></h2>
+        </div>
+        <div class="login">
+          <a href="./Login page/login.html">Login / Signup</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="img">
+          <img src="../images/Captures/front.avif" alt="" />
+        </div>
+        <p>
+          Since its humble beginnings in a cozy kitchen, Sweet delights Bakery
+          has blossomed into a beloved institution, rooted in a rich tapestry of
+          family heritage and culinary passion. Founded 2010, our journey began
+          with a simple dream: to share the joy of freshly baked goodness with
+          our community. Over the years, we've honed our craft, perfecting
+          recipes passed down through generations and infusing each creation
+          with a sprinkle of love. Every milestone has been marked by unwavering
+          dedication and a commitment to quality. Today, [Bakery Name] stands as
+          a testament to the timeless allure of artisanal baking, where
+          tradition meets innovation, and every bite tells a story.
+        </p>
+      </div>
+      <div class="members">
+        <h1>MEMBERS</h1>
+        <div class="member">
+          <div class="one">
+            <div class="CEO">
+              <img src="../images/Captures/Untitled-1.png" alt="CEO" />
+            </div>
+            <div class="desc">
+              <p>CEO</p>
+              <p>Aime Claudien MAZIMPAKA</p>
+            </div>
+          </div>
+        </div>
+        <div class="member">
+          <div class="one">
+            <div class="CEO">
+              <img src="../images/Captures/Untitled-2.png" alt="CEO" />
+            </div>
+            <div class="desc">
+              <p>Manager</p>
+              <p>Baraka MUSSA</p>
+            </div>
+          </div>
+          <div class="one">
+            <div class="CEO">
+              <img src="../images/Captures/Untitled-5.png" alt="CEO" />
+            </div>
+            <div class="desc">
+              <p>Baker</p>
+              <p>Yassin NDAYISHIMIYE</p>
+            </div>
+          </div>
+          <div class="one">
+            <div class="CEO">
+              <img src="../images/Captures/Untitled-4.png" alt="CEO" />
+            </div>
+            <div class="desc">
+              <p>Baker</p>
+              <p>Christian BIMENYIMANA</p>
+            </div>
+          </div>
+          <div class="one">
+            <div class="CEO">
+              <img src="../images/Captures/Untitled-3.png" alt="CEO" />
+            </div>
+            <div class="desc">
+              <p>Baker</p>
+              <p>Octave MUGABE</p>
+            </div>
+          </div>
+          <div class="one">
+            <div class="CEO">
+              <img src="../images/Captures/Untitled-6.png" alt="CEO" />
+            </div>
+            <div class="desc">
+              <p>Server</p>
+              <p>Yvette UMURISA</p>
+            </div>
+          </div>
+          <div class="one">
+            <div class="CEO">
+              <img src="../images/Captures/Untitled-7.png" alt="CEO" />
+            </div>
+            <div class="desc">
+              <p>Server</p>
+              <p>Ben NIYOMUNGERI</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Aimecol &copy; 2024, Musanze, Ines Ruhengeri</p>
+    </footer>
+    <script>
+      const btn = document.querySelector("span");
+      const btnOn = document.querySelector(".nav-dropdown");
+      const button = document.querySelector(".hamburger");
+
+      button.onclick = function () {
+        button.classList.toggle("isActive");
+        btnOn.classList.toggle("open");
+      };
+    </script>
+  </body>
+</html>

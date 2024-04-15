@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex';
+}
+
+img {
+    width: 100%;
+}
+
+.message {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #B37B42;
+    margin-bottom: 1em;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.text {
+    margin-bottom: .5em;
+}
+
+.delete a {
+    text-decoration: none;
+    color: #ADD8E6;
+    padding: .5em;
+    background-color: rgb(165, 8, 8);
+    border-radius: 1rem;
+    font-weight: 700;
+    transition: .5s;
+}
+
+.delete a:hover {
+    color: #222222d2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex';
+}
+
+img {
+    width: 100%;
+}
+
+.message {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #B37B42;
+    margin-bottom: 1em;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.text {
+    margin-bottom: .5em;
+}
+
+.delete a {
+    text-decoration: none;
+    color: #ADD8E6;
+    padding: .5em;
+    background-color: rgb(165, 8, 8);
+    border-radius: 1rem;
+    font-weight: 700;
+    transition: .5s;
+}
+
+.delete a:hover {
+    color: #222222d2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex';
+}
+
+img {
+    width: 100%;
+}
+
+.message {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #B37B42;
+    margin-bottom: 1em;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.text {
+    margin-bottom: .5em;
+}
+
+.delete a {
+    text-decoration: none;
+    color: #ADD8E6;
+    padding: .5em;
+    background-color: rgb(165, 8, 8);
+    border-radius: 1rem;
+    font-weight: 700;
+    transition: .5s;
+}
+
+.delete a:hover {
+    color: #222222d2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex';
+}
+
+img {
+    width: 100%;
+}
+
+.message {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #B37B42;
+    margin-bottom: 1em;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.text {
+    margin-bottom: .5em;
+}
+
+.delete a {
+    text-decoration: none;
+    color: #ADD8E6;
+    padding: .5em;
+    background-color: rgb(165, 8, 8);
+    border-radius: 1rem;
+    font-weight: 700;
+    transition: .5s;
+}
+
+.delete a:hover {
+    color: #222222d2;
+}
+

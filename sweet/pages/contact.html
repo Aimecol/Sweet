@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet-Delight-Contact</title>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto Flex"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <h1>
+          <a href="#">Sweet <span>Delights</span></a>
+        </h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="active">Contact us</a></li>
+        </ul>
+      </nav>
+      <div class="side">
+        <div class="cart">
+          <h2><a href="#">Cart</a></h2>
+        </div>
+        <div class="search">
+          <input type="search" placeholder="search..." />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="login">
+          <a href="./Login page/login.html">Login / Signup</a>
+        </div>
+      </div>
+      <button class="hamburger">
+        <div class="bars"></div>
+      </button>
+      <div class="nav-dropdown">
+        <li><a href="../index.html" class="active">Home</a></li>
+        <li><a href="./services.php">Services</a></li>
+        <li><a href="./about.html">About us</a></li>
+        <li><a href="./gallery.html">Gallery</a></li>
+        <li><a href="./contact.html">Contact us</a></li>
+        <div class="cart">
+          <h2><a href="#">Cart</a></h2>
+        </div>
+        <div class="login">
+          <a href="./Login page/login.html">Login / Signup</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <form method="POST" action="./insert_contact.php">
+          <div class="row">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Name*"
+                name="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Email*"
+                name="email"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                rows="8"
+                id="comment"
+                placeholder="Message*"
+                name="text"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="single-contact-btn">
+              <button type="submit" class="btn" name="send">Submit</button>
+            </div>
+          </div>
+        </form>
+        <div class="contact">
+          <div class="single-contact-box">
+            <div class="contact-adress">
+              <div class="contact-add-head">
+                <h3>aime claudien mazimpaka</h3>
+                <p>web developer</p>
+              </div>
+              <div class="contact-add-info">
+                <div class="single-contact-add-info">
+                  <h3>phone</h3>
+                  <p>+250-789-375-245</p>
+                </div>
+                <div class="single-contact-add-info">
+                  <h3>email</h3>
+                  <p>aimecol314@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="hm-foot-icon">
+              <ul>
+                <li>
+                  <a href="https://web.facebook.com/mazimpaka.aime.5/about"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-dribbble"></i></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/aimecol314"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/mazimpaka_aimecol/"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Aimecol &copy; 2024, Musanze, Ines Ruhengeri</p>
+    </footer>
+    <script>
+      const btnOn = document.querySelector(".nav-dropdown");
+      const button = document.querySelector(".hamburger");
+
+      button.onclick = function () {
+        button.classList.toggle("isActive");
+        btnOn.classList.toggle("open");
+      };
+    </script>
+  </body>
+</html>

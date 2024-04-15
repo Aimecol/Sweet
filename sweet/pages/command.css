@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex';
+}
+
+img {
+    width: 100%;
+}
+
+.logout a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #222222d2;
+    color: #ADD8E6;
+    padding: .5em;
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+.logout a:hover {
+    background-color: transparent;
+    color: #222222d2;
+}
+
+main {
+    margin-top: 6em;
+}
+
+table, tr, th, td{
+    margin: 0 auto;
+    border: 2px solid #222222d2;
+    padding: .5em;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+}

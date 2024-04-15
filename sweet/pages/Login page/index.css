@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('Artboard.png');
+    background-position: center;
+    background-size: cover; */
+    background-color: #B37B42;
+}
+
+.form-box{
+    position: relative;
+    margin: 0 auto;
+    width: 40%;
+    background: transparent;
+    border: 3px solid #ADD8E6;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-value {
+    width: 80%;
+}
+
+h2 {
+    font-size: 2em;
+    color: #ADD8E6;
+    text-align: center;
+}
+
+.inputbox{
+    position: relative;
+    margin: 1.5em 0;
+    width: 100%;
+    border-bottom: 2px solid #ADD8E6;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ADD8E6;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 3rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    display: flex;
+    color: #ADD8E6;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: .5rem;
+    color: #ADD8E6;
+    font-size: 1.2em;
+    top: 50%;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #ADD8E6;
+    display: flex;
+    justify-content: center;
+}
+
+.forget p a {
+    color: #222;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+.forget p a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #ADD8E6;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.register {
+    font-size: .9em;
+    color: #ADD8E6;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 700;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+    .form-box {
+        width: 80%;
+    }
+}

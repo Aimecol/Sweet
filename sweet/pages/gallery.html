@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet-Delight-Gallery</title>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="gallery.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto Flex"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <h1>
+          <a href="#">Sweet <span>Delights</span></a>
+        </h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+      <div class="side">
+        <div class="cart">
+          <h2><a href="#">Cart</a></h2>
+        </div>
+        <div class="search">
+          <input type="search" placeholder="search..." />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="login">
+          <a href="./Login page/login.html">Login / Signup</a>
+        </div>
+      </div>
+      <button class="hamburger">
+        <div class="bars"></div>
+      </button>
+      <div class="nav-dropdown">
+        <li><a href="../index.html" class="active">Home</a></li>
+        <li><a href="./services.php">Services</a></li>
+        <li><a href="./about.html">About us</a></li>
+        <li><a href="./gallery.html">Gallery</a></li>
+        <li><a href="./contact.html">Contact us</a></li>
+        <div class="cart">
+          <h2><a href="#">Cart</a></h2>
+        </div>
+        <div class="login">
+          <a href="./Login page/login.html">Login / Signup</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1>Welcome to Our Virtual Tour</h1>
+      <div class="container">
+        <div class="img">
+          <img
+            src="../images/rustic-style-bakery-interior-with-wooden-table-assorted-breads_927877-237.png"
+            alt=""
+          />
+        </div>
+        <div class="img">
+          <img
+            src="../images/abundance-fresh-bread-rustic-bakery-generated-by-ai_24640-84752.png"
+            alt=""
+          />
+        </div>
+        <div class="img">
+          <img
+            src="../images/pngtree-bakers-shop-in-tokyo-a-shop-full-of-bread-picture-image_2474571.jpg"
+            alt=""
+          />
+        </div>
+        <div class="img">
+          <img
+            src="../images/pngtree-breads-on-display-in-bakery-window-from-the-window-image_2514071.jpg"
+            alt=""
+          />
+        </div>
+        <div class="img">
+          <img src="../images/two.jpg" alt="" />
+        </div>
+        <div class="img">
+          <img
+            src="../images/fresh-baked-sweet-delights-rustic-bakery-shelf-generated-by-ai_188544-40761.png"
+            alt=""
+          />
+        </div>
+        <div class="img">
+          <img src="../images/three.jpg" alt="" />
+        </div>
+        <div class="img">
+          <img src="../images/3.jpg" alt="" />
+        </div>
+        <div class="img">
+          <img src="../images/4.jpg" alt="" />
+        </div>
+        <div class="img">
+          <img src="../images/3.jpg" alt="" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Aimecol &copy; 2024, Musanze, Ines Ruhengeri</p>
+    </footer>
+    <script>
+      const btn = document.querySelector("span");
+      const btnOn = document.querySelector(".nav-dropdown");
+      const button = document.querySelector(".hamburger");
+
+      button.onclick = function () {
+        button.classList.toggle("isActive");
+        btnOn.classList.toggle("open");
+      };
+    </script>
+  </body>
+</html>
